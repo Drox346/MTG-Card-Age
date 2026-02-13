@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTG Year Annotator Test</title>
+    <style>
+      body { font-family: sans-serif; margin: 2rem; }
+      table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+      td, th { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+    </style>
+  </head>
+  <body>
+    <h1>MTG Year Annotator Test</h1>
+    <p>
+      Rows use <code>tr.cardItem</code> and card names come from
+      <code>data-card-id</code>.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Card</th>
+          <th>Mana Cost</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cards">
+        <tr data-required="2" data-card-id="Tishana's Tidebinder" data-rarity="R" class="cardItem" cardkingdom="4.49" tcgplayer="3.75" cardhoarder="0.18">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            2
+            <a href="/prices/tishanas-tidebinder" type="creature — merfolk wizard" image="https://mtgdecks.net/img/card/LCI/tishanas-tidebinder-2.jpg">Tishana's Tidebinder</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-2 ms-shadow"></span><span class="ms ms-cost ms-u ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$4.49</span>
+              <span class="mtgo option" style="display:none">$0.18</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="3" data-card-id="Floodfarm Verge" data-rarity="R" class="cardItem" cardkingdom="2.99" tcgplayer="2.25" cardhoarder="0.09">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            3
+            <a href="/prices/floodfarm-verge" type="land" image="https://mtgdecks.net/img/card/DSK/floodfarm-verge-3.jpg">Floodfarm Verge</a>
+          </td>
+          <td class="manaCost"></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$2.99</span>
+              <span class="mtgo option" style="display:none">$0.09</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="4" data-card-id="Marketback Walker" data-rarity="U" class="cardItem" cardkingdom="0.49" tcgplayer="0.25" cardhoarder="0.03">
+          <td class="number">
+            <span class="rarity bullet U"></span>
+            4
+            <a href="/prices/marketback-walker" type="artifact creature — construct" image="https://mtgdecks.net/img/card/DFT/marketback-walker-4.jpg">Marketback Walker</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-2 ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$0.49</span>
+              <span class="mtgo option" style="display:none">$0.03</span>
+              <span class="arena option" style="display:none">U</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="1" data-card-id="Salvation Engine" data-rarity="R" class="cardItem" cardkingdom="5.99" tcgplayer="4.2" cardhoarder="0.33">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            1
+            <a href="/prices/salvation-engine" type="artifact" image="https://mtgdecks.net/img/card/DFT/salvation-engine-1.jpg">Salvation Engine</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-4 ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$5.99</span>
+              <span class="mtgo option" style="display:none">$0.33</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="2" data-card-id="Regal Bunnicorn" data-rarity="R" class="cardItem" cardkingdom="1.99" tcgplayer="1.45" cardhoarder="0.08">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            2
+            <a href="/prices/regal-bunnicorn" type="creature — rabbit unicorn" image="https://mtgdecks.net/img/card/WOE/regal-bunnicorn-2.jpg">Regal Bunnicorn</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-1 ms-shadow"></span><span class="ms ms-cost ms-w ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$1.99</span>
+              <span class="mtgo option" style="display:none">$0.08</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="2" data-card-id="Not Dead After All" data-rarity="U" class="cardItem" cardkingdom="0.39" tcgplayer="0.22" cardhoarder="0.02">
+          <td class="number">
+            <span class="rarity bullet U"></span>
+            2
+            <a href="/prices/not-dead-after-all" type="instant" image="https://mtgdecks.net/img/card/WOE/not-dead-after-all-2.jpg">Not Dead After All</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-b ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$0.39</span>
+              <span class="mtgo option" style="display:none">$0.02</span>
+              <span class="arena option" style="display:none">U</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="1" data-card-id="Spelunking" data-rarity="R" class="cardItem" cardkingdom="3.49" tcgplayer="2.65" cardhoarder="0.14">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            1
+            <a href="/prices/spelunking" type="enchantment" image="https://mtgdecks.net/img/card/LCI/spelunking-1.jpg">Spelunking</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-2 ms-shadow"></span><span class="ms ms-cost ms-g ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$3.49</span>
+              <span class="mtgo option" style="display:none">$0.14</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="2" data-card-id="Riverpyre Verge" data-rarity="R" class="cardItem" cardkingdom="2.79" tcgplayer="2.1" cardhoarder="0.07">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            2
+            <a href="/prices/riverpyre-verge" type="land" image="https://mtgdecks.net/img/card/DFT/riverpyre-verge-2.jpg">Riverpyre Verge</a>
+          </td>
+          <td class="manaCost"></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$2.79</span>
+              <span class="mtgo option" style="display:none">$0.07</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="3" data-card-id="Unstoppable Plan" data-rarity="U" class="cardItem" cardkingdom="0.59" tcgplayer="0.31" cardhoarder="0.04">
+          <td class="number">
+            <span class="rarity bullet U"></span>
+            3
+            <a href="/prices/unstoppable-plan" type="sorcery" image="https://mtgdecks.net/img/card/DFT/unstoppable-plan-3.jpg">Unstoppable Plan</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-1 ms-shadow"></span><span class="ms ms-cost ms-u ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$0.59</span>
+              <span class="mtgo option" style="display:none">$0.04</span>
+              <span class="arena option" style="display:none">U</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="1" data-card-id="Jadelight Spelunker" data-rarity="R" class="cardItem" cardkingdom="1.49" tcgplayer="1.05" cardhoarder="0.05">
+          <td class="number">
+            <span class="rarity bullet R"></span>
+            1
+            <a href="/prices/jadelight-spelunker" type="creature — merfolk scout" image="https://mtgdecks.net/img/card/LCI/jadelight-spelunker-1.jpg">Jadelight Spelunker</a>
+          </td>
+          <td class="manaCost"><span class="ms ms-cost ms-x ms-shadow"></span><span class="ms ms-cost ms-g ms-shadow"></span></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$1.49</span>
+              <span class="mtgo option" style="display:none">$0.05</span>
+              <span class="arena option" style="display:none">R</span>
+            </span>
+          </td>
+        </tr>
+        <tr data-required="2" data-card-id="Mountain" data-rarity="C" class="cardItem" cardkingdom="0.1" tcgplayer="0.05" cardhoarder="0.01">
+          <td class="number">
+            <span class="rarity bullet C"></span>
+            2
+            <a href="/prices/mountain" type="basic land — mountain" image="https://mtgdecks.net/img/card/BLB/mountain-2.jpg">Mountain</a>
+          </td>
+          <td class="manaCost"></td>
+          <td>
+            <span class="price">
+              <span class="paper option">$0.10</span>
+              <span class="mtgo option" style="display:none">$0.01</span>
+              <span class="arena option" style="display:none">C</span>
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="standard_year_annotator.js"></script>
+  </body>
+</html>
