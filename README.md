@@ -14,6 +14,13 @@ Option B makes updates easier, since you can use Violentmonkey's `Update` button
 ## Usage
 Runs on decks viewed at `https://mtgdecks.net/Standard/*` and appends a year column to each card row.
 
+## Screenshots
+### Before
+<img src="docs/before.png" alt="Before annotation" width="420" />
+
+### After
+<img src="docs/after.png" alt="After annotation" width="420" />
+
 ## Notes
 - If a card appears with multiple origins in the CSV, the script uses the highest available year.
 - CSV data is cached for 24 hours before refresh.

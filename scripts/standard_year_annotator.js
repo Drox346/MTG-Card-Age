@@ -6,12 +6,10 @@
 // @match        https://mtgdecks.net/Standard/*
 // @run-at       document-idle
 //
-// Required for cross-origin fetch + storage (Violentmonkey).
 // @grant        GM.xmlHttpRequest
 // @grant        GM.getValue
 // @grant        GM.setValue
 //
-// Allow fetching the CSVs (adjust domains to your real ones).
 // @connect      raw.githubusercontent.com
 // @connect      githubusercontent.com
 // ==/UserScript==
