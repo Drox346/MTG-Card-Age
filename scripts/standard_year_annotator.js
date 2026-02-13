@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MTG Standard Year Annotator (CSV + Cache)
 // @namespace    https://example.invalid/
-// @version      0.1.0
+// @version      0.2.0
 // @description  Loads 2 CSVs (card->origin, origin->year), caches them, and appends a new trailing <td> with year on each <tr.cardItem>.
 // @match        https://mtgdecks.net/Standard/*
 // @run-at       document-idle
