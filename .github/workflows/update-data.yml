@@ -5,6 +5,9 @@ on:
     - cron: "0 03 * * 1"   # Monday 03:00 UTC weekly
   workflow_dispatch:       # manual run
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -22,7 +25,7 @@ jobs:
 
       - name: Run script
         run: |
-          python scripts/process.py
+          python scripts/update_data.py
 
       - name: Commit changes
         run: |
