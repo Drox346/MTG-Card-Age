@@ -1,0 +1,33 @@
+name: update-data
+
+on:
+  schedule:
+    - cron: "0 03 * * 1"   # Monday 03:00 UTC weekly
+  workflow_dispatch:       # manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download CSV
+        run: |
+          curl -L "https://mtgjson.com/api/v5/csv/cards.csv" -o data/original_data.csv
+
+      - name: Run script
+        run: |
+          python scripts/process.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/card_data.csv
+          git diff --cached --quiet || git commit -m "weekly card data update"
+          git push

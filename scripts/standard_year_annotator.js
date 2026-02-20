@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         MTG Standard Year Annotator (CSV + Cache)
+// @name         MTG Standard Year Annotator (Single CSV + Cache)
 // @namespace    https://example.invalid/
-// @version      0.2.0
-// @description  Loads 2 CSVs (card->origin, origin->year), caches them, and appends a new trailing <td> with year on each <tr.cardItem>.
+// @version      0.3.0
+// @description  Loads 1 CSV (card->year), caches it, and appends a new trailing <td> with year on each <tr.cardItem>.
 // @match        https://mtgdecks.net/Standard/*
 // @run-at       document-idle
 //
@@ -19,8 +19,8 @@
 
   const HAS_GM = typeof GM !== "undefined";
 
-  const CARD_TO_ORIGIN_CSV_URL = "https://raw.githubusercontent.com/Drox346/MTG-Card-Age/refs/heads/main/data/card_origin.csv";
-  const ORIGIN_TO_YEAR_CSV_URL = "https://raw.githubusercontent.com/Drox346/MTG-Card-Age/refs/heads/main/data/origin_modern_availability.csv";
+  const CARD_TO_YEAR_CSV_URL = "https://raw.githubusercontent.com/Drox346/MTG-Card-Age/refs/heads/main/data/card_data.csv";
+  const DEBUG = true;
 
   const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
   const CACHE_BUSTER = "";
@@ -29,6 +29,11 @@
   const PROCESSED_ATTR = "data-mtg-year-added";
   const YEAR_CELL_ATTR = "data-mtg-year-cell";
   const STYLE_TAG_ID = "mtg-year-annotator-style";
+
+  function debugLog(...args) {
+    if (!DEBUG) return;
+    console.debug("[MTG Year Annotator]", ...args);
+  }
 
   function getCardNameFromRow(tr) {
     return (tr.getAttribute("data-card-id") || "").trim();
@@ -178,6 +183,7 @@
       const { fetchedAt, text } = cached;
       if (typeof fetchedAt === "number" && typeof text === "string") {
         if ((now - fetchedAt) < CACHE_TTL_MS) {
+          debugLog("CSV loaded from cache", { cacheKey, url });
           return { text, fromCache: true };
         }
       }
@@ -185,35 +191,32 @@
 
     const text = await fetchText(withCacheBuster(url));
     await setCachedValue(cacheKey, { fetchedAt: now, text });
+    debugLog("CSV fetched from network", { cacheKey, url });
     return { text, fromCache: false };
   }
 
-  let cardToOrigins = null; // Map<string, string[]>
-  let originToYear = null; // Map<string, string>
+  let cardToYear = null; // Map<string, string>
 
   async function initData() {
-    const [a, b] = await Promise.all([
-      loadOrFetchCsv("mtg_csv_card_to_origin", CARD_TO_ORIGIN_CSV_URL),
-      loadOrFetchCsv("mtg_csv_origin_to_year", ORIGIN_TO_YEAR_CSV_URL),
-    ]);
+    const data = await loadOrFetchCsv("mtg_csv_card_to_year", CARD_TO_YEAR_CSV_URL);
+    debugLog("initData start", { fromCache: data.fromCache });
 
     const m1 = new Map();
-    for (const [card, origin] of parseCsvTwoColumns(a.text)) {
+    for (const [card, yearRaw] of parseCsvTwoColumns(data.text)) {
+      const yearInt = Number.parseInt((yearRaw || "").trim(), 10);
+      if (!Number.isFinite(yearInt)) continue;
+      const year = String(yearInt);
       const keys = getCardLookupKeys(card);
       for (const key of keys) {
-        const current = m1.get(key) || [];
-        if (!current.includes(origin)) current.push(origin);
-        m1.set(key, current);
+        const existing = Number.parseInt(m1.get(key) || "", 10);
+        if (!Number.isFinite(existing) || yearInt > existing) {
+          m1.set(key, year);
+        }
       }
     }
 
-    const m2 = new Map();
-    for (const [origin, year] of parseCsvTwoColumns(b.text)) {
-      m2.set(origin.trim(), year.trim());
-    }
-
-    cardToOrigins = m1;
-    originToYear = m2;
+    cardToYear = m1;
+    debugLog("initData complete", { cardToYearSize: cardToYear.size });
   }
 
   function normalizeCardName(name) {
@@ -232,22 +235,6 @@
     return [...new Set([normalized, ...parts])];
   }
 
-  function resolveYearFromOrigins(origins) {
-    if (!Array.isArray(origins) || !origins.length) return null;
-
-    let maxYear = null;
-    for (const origin of origins) {
-      const yearRaw = originToYear.get((origin || "").trim());
-      if (!yearRaw) continue;
-      const yearInt = Number.parseInt(yearRaw, 10);
-      if (!Number.isFinite(yearInt)) continue;
-      if (maxYear === null || yearInt > maxYear) {
-        maxYear = yearInt;
-      }
-    }
-    return maxYear === null ? null : String(maxYear);
-  }
-
   function annotateRow(tr) {
     if (tr.getAttribute(PROCESSED_ATTR) === "1") return;
     if (tr.querySelector(`td[${YEAR_CELL_ATTR}="1"]`)) {
@@ -262,18 +249,14 @@
     const cardName = normalizeCardName(cardNameRaw);
     if (!cardName) return;
 
-    const origins = cardToOrigins.get(cardName);
-    if (!origins || !origins.length) {
-      tr.setAttribute(PROCESSED_ATTR, "1");
-      return;
-    }
-
-    const year = resolveYearFromOrigins(origins);
+    const year = cardToYear.get(cardName);
     if (!year) {
+      debugLog("no year found", { cardName });
       tr.setAttribute(PROCESSED_ATTR, "1");
       return;
     }
 
+    debugLog("annotated", { cardName, year });
     tr.appendChild(createYearCell(year));
 
     tr.setAttribute(PROCESSED_ATTR, "1");
@@ -281,14 +264,17 @@
 
   function annotateAll() {
     const rows = document.querySelectorAll(ROW_SELECTOR);
+    debugLog("annotateAll", { rowCount: rows.length });
     for (const tr of rows) annotateRow(tr);
   }
 
   (async () => {
     try {
+      debugLog("script start");
       await initData();
       injectStyles();
       annotateAll();
+      debugLog("script done");
     } catch (e) {
       console.error("[MTG Year Annotator] init failed:", e);
     }
