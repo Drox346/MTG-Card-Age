@@ -59,7 +59,7 @@ def main() -> int:
         )
         return 2
 
-    output_path = Path(__file__).resolve().parents[1] / "data" / "expansions.json"
+    output_path = Path(__file__).resolve().parents[1] / ".." / "data" / "expansions.json"
     output_path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     print(f"Wrote {len(data)} entries to {output_path}")

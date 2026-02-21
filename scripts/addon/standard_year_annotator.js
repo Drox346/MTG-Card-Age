@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         MTG Standard Year Annotator (Single CSV + Cache)
+// @name         MTG Standard Year Annotator
 // @namespace    https://example.invalid/
 // @version      0.3.0
-// @description  Loads 1 CSV (card->year), caches it, and appends a new trailing <td> with year on each <tr.cardItem>.
+// @description  Shows when Magic cards fall out of rotation on the https://mtgdecks.net/Standard/ deck overview.
 // @match        https://mtgdecks.net/Standard/*
 // @run-at       document-idle
 //
@@ -56,7 +56,7 @@
         padding-left: 0.65rem;
         white-space: nowrap;
         text-align: right;
-        color: #9aa4b2;
+        color: #6b7c94;
         font-weight: 600;
         opacity: 0.95;
       }

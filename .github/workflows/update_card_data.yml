@@ -25,9 +25,9 @@ jobs:
 
       - name: Run script
         run: |
-          python scripts/update_card_data.py
+          python scripts/data/update_card_data.py
 
-      - name: Commit changes
+      - name: Commit result (if changed)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"

@@ -6,8 +6,9 @@ Shows when Magic cards fall out of rotation on the https://mtgdecks.net/Standard
 ## Installation
 1. Install the browser add-on Violentmonkey.
 2. Open Violentmonkey, then choose one install method:
-3. Option A (manual): Click `New`, then paste the contents of `scripts/standard_year_annotator.js`.
-4. Option B (recommended): Click `Install from URL` and use `https://raw.githubusercontent.com/Drox346/MTG-Card-Age/main/scripts/standard_year_annotator.js`.
+3. Option A (manual): Click `New`, then paste the contents of `scripts/addon/standard_year_annotator.js`.
+4. Option B (recommended): Click `Install from URL` and use  
+`https://raw.githubusercontent.com/Drox346/MTG-Card-Age/main/scripts/addon/standard_year_annotator.js`
 
 Option B makes updates easier, since you can use Violentmonkey's `Update` button later.
 

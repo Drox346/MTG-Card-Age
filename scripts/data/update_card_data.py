@@ -4,9 +4,9 @@ import os
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
 
-in_path  = f"{SCRIPT_PATH}/../data/original_data.csv"
-out_path = f"{SCRIPT_PATH}/../data/card_data.csv"
-expansions_path = f"{SCRIPT_PATH}/../data/expansions.json"
+in_path  = f"{SCRIPT_PATH}/../../data/original_data.csv"
+out_path = f"{SCRIPT_PATH}/../../data/card_data.csv"
+expansions_path = f"{SCRIPT_PATH}/../../data/expansions.json"
 
 with open(expansions_path, "r", encoding="utf-8") as f:
   expansions_by_year = json.load(f)
