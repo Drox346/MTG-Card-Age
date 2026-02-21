@@ -22,7 +22,7 @@ Runs on decks viewed at `https://mtgdecks.net/Standard/*` and appends a year col
 <img src="docs/after.png" alt="After annotation" width="420" />
 
 ## Notes
-- If a card appears with multiple origins in the CSV, the script uses the highest available year.
+- If a card appears with multiple expansions in the CSV, the script uses the highest available year.
 - CSV data is cached for 24 hours before refresh.
 
 ## Data

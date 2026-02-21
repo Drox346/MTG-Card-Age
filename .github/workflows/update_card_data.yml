@@ -3,7 +3,7 @@ name: update-data
 on:
   schedule:
     - cron: "0 03 * * 1"   # Monday 03:00 UTC weekly
-  workflow_dispatch:       # manual run
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,7 +25,7 @@ jobs:
 
       - name: Run script
         run: |
-          python scripts/update_data.py
+          python scripts/update_card_data.py
 
       - name: Commit changes
         run: |
