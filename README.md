@@ -1,7 +1,7 @@
 # MTG-Card-Age
 
 ## Description
-Shows when Magic cards fall out of rotation on the https://mtgdecks.net/Standard deck overview. Script(s) are written for the browser add-on "Violentmonkey".
+Shows when Magic cards fall out of rotation on the https://mtgdecks.net/Standard deck overview. Script(s) are written for the browser add-on Violentmonkey.
 
 ## Installation
 1. Install the browser add-on Violentmonkey.
@@ -26,6 +26,5 @@ Runs on decks viewed at `https://mtgdecks.net/Standard/*` and appends a year col
 - CSV data is cached for 24 hours before refresh.
 
 ## Data
-Data provided by https://mtgjson.com/api/v5/csv/.  
-Stripping non-viable cards from data: `^(?!.*(?:WOE|LCI|MKM|OTJ|BIG|BLB|DSK|FDN|DFT|TDM|FIN|EOE|SPM|OM1|TLA|ECL)\n).*$`  
-Adding quotation marks to all names that don't have it yet for consistent format: Search `^(?!")[^,]*`, Replace with `"\0"`
+Card data provided by https://mtgjson.com/api/v5/csv/  
+Standard validity of expansions provided by https://whatsinstandard.com/
