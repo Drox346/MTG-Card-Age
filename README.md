@@ -23,9 +23,9 @@ Runs on decks viewed at `https://mtgdecks.net/Standard/*` and appends a year col
 <img src="docs/after.png" alt="After annotation" width="420" />
 
 ## Notes
-- If a card appears with multiple expansions in the CSV, the script uses the highest available year.
-- CSV data is cached for 24 hours before refresh.
+- If a card appears in multiple expansions, the script uses the expansion that remains legal the longest.
+- Rotation and card data are refreshed automatically about once per week. This happens in the background and is separate from script or add-on updates.
 
 ## Data
 Card data provided by https://mtgjson.com/api/v5/csv/  
-Standard validity of expansions provided by https://whatsinstandard.com/
+Current standard rotation provided by https://whatsinstandard.com/
