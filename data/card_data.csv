@@ -36,6 +36,7 @@
 "Abyssal Harvester",2030
 "Abzan Devotee",2028
 "Abzan Monument",2028
+"Academic Ascent",2029
 "Accumulate Wisdom",2028
 "Aclazotz, Deepest Betrayal // Temple of the Dead",2027
 "Acolyte of Aclazotz",2027
@@ -58,6 +59,7 @@
 "Aegis Sculptor",2028
 "Aegis Turtle",2030
 "Aerial Doombot",2029
+"Aerid Konstrari",2029
 "Aerith Gainsborough",2028
 "Aerith Rescue Mission",2028
 "Aether Syphon",2028
@@ -188,6 +190,7 @@
 "Araña, Heart of the Spider",2028
 "Arbiter of Woe",2030
 "Arc Reactor",2029
+"Arcane Amphisbaena",2029
 "Arcane Epiphany",2030
 "Arcane Omens",2029
 "Arcanis the Omnipotent",2030
@@ -258,6 +261,7 @@
 "Avatar Aang // Aang, Master of Elements",2028
 "Avatar Destiny",2028
 "Avatar Enthusiasts",2028
+"Avatar of Burgeoning Echoes",2029
 "Avatar's Wrath",2028
 "Aven Interrupter",2027
 "Avenger of the Fallen",2028
@@ -374,6 +378,7 @@
 "Bespoke Battlegarb",2027
 "Bespoke Bō",2029
 "Bestial Bloodline",2027
+"Bestial Incursion",2029
 "Bestow Greatness",2028
 "Betor, Kin to All",2028
 "Betrayal at the Vault",2027
@@ -551,6 +556,7 @@
 "Brush Off",2029
 "Bubble Smuggler",2027
 "Bucolic Ranch",2027
+"Budding Insurgent",2029
 "Builder's Talent",2027
 "Bulk Up",2030
 "Bullseye, Death Dealer",2029
@@ -602,6 +608,7 @@
 "Camellia, the Seedmiser",2027
 "Camera Launcher",2028
 "Campus Composer // Aqueous Aria",2029
+"Campus Crier",2029
 "Campus Guide",2030
 "Cancel",2030
 "Candlestick",2027
@@ -629,6 +636,7 @@
 "Cargo Ship",2028
 "Carnage, Crimson Chaos",2028
 "Carnelian Orb of Dragonkind",2030
+"Carnivorous Cultivator // Enroot",2029
 "Carrion Cruiser",2028
 "Carrot Cake",2027
 "Cartographer's Companion",2027
@@ -736,6 +744,7 @@
 "Clandestine Meddler",2027
 "Clarion Conqueror",2028
 "Clarion Conqueror // Clarion Conqueror",2028
+"Clash of Elements",2029
 "Clash of the Eikons",2028
 "Claws Out",2030
 "Clay-Fired Bricks // Cosmium Kiln",2027
@@ -838,6 +847,7 @@
 "Costume Closet",2028
 "Council of Echoes",2027
 "Count on Luck",2028
+"Countersculpt",2029
 "Country Roads",2028
 "Courageous Goblin",2030
 "Courier of Comestibles",2029
@@ -869,6 +879,7 @@
 "Crude Bent Blade",2029
 "Cruel Administrator",2028
 "Cruel Alliance",2029
+"Cruel Calculations",2029
 "Cruel Somnophage // Can't Wake Up",2027
 "Cruel Truths",2028
 "Cruelclaw's Heist",2027
@@ -919,6 +930,8 @@
 "Damage Control Crew",2028
 "Dance of the Tumbleweeds",2027
 "Dancing from Dark to Dawn",2029
+"Danitha, Spear of Agony",2029
+"Danitha, Sword of Hope",2029
 "Daredevil, Man Without Fear",2029
 "Daretti, Rocketeer Engineer",2028
 "Daring Discovery",2027
@@ -1002,6 +1015,7 @@
 "Demonic Junker",2028
 "Demonic Pact",2030
 "Demonic Ruckus",2027
+"Denzilore Fatehold",2029
 "Dependable Quinjet",2029
 "Depower",2029
 "Depressurize",2028
@@ -1011,6 +1025,7 @@
 "Desecration Demon",2030
 "Desert Were-Worm",2029
 "Desert's Due",2027
+"Deserted Beach",2029
 "Deserter's Disciple",2028
 "Desolation Prowler",2029
 "Desolation of Smaug",2029
@@ -1066,6 +1081,7 @@
 "Diversion Unit",2028
 "Divert Disaster",2028
 "Divine Resilience",2030
+"Diviner of Victory // Unwind History",2029
 "Djinn of Fool's Fall",2027
 "Doc Aurlock, Grizzled Genius",2027
 "Doc Ock's Henchmen",2028
@@ -1183,6 +1199,7 @@
 "Eager Trufflesnout",2030
 "Eagle of the Great Shelf",2029
 "Eagle's Rescue",2029
+"Eardrum Rattler",2029
 "Early Winter",2027
 "Earth King's Lieutenant",2028
 "Earth Kingdom General",2028
@@ -1214,7 +1231,9 @@
 "Eddie Brock // Venom, Lethal Protector",2028
 "Eddymurk Crab",2027
 "Eden, Seat of the Sanctum",2028
+"Edgar, Ancient Bloodlord",2029
 "Edgar, King of Figaro",2028
+"Edgar, Moonlit Sovereign",2029
 "Edge Rover",2028
 "Edgewall Inn",2027
 "Edgewall Pack",2027
@@ -1262,6 +1281,7 @@
 "Embrace the Paradox",2029
 "Emerge from the Cocoon",2027
 "Emergency Eject",2028
+"Emergency Phytomedic // Seed Suture",2029
 "Emergent Haunting",2027
 "Emeritus of Abundance // Regrowth",2029
 "Emeritus of Conflict // Lightning Bolt",2029
@@ -1273,6 +1293,7 @@
 "Emissary Escort",2028
 "Emptiness",2029
 "Empyrean Eagle",2030
+"Emrakul, the Exigent Doom",2029
 "Enchanted River's Grasp",2029
 "Encouraging Aviator // Jump",2029
 "Encroaching Dragonstorm",2028
@@ -1366,6 +1387,7 @@
 "Ezrim, Agency Chief",2027
 "Fabled Passage",2027
 "Fabrication Foundry",2027
+"Face Yourself",2029
 "Fae Flight",2027
 "Faebloom Trick",2030
 "Faerie Dreamthief",2027
@@ -1394,7 +1416,11 @@
 "Fate of the Sun-Cryst",2028
 "Fated Firepower",2028
 "Fateful Discovery",2029
+"Fatehold Charm",2029
+"Fatehold Chronologist // Peer Review",2029
 "Faunsbane Troll",2027
+"Fblthp, Impossibly Lost",2029
+"Fblthp, Knows the Way",2029
 "Fblthp, Lost on the Range",2027
 "Fear of Abduction",2027
 "Fear of Being Hunted",2027
@@ -1631,6 +1657,7 @@
 "Gathering of Darkness",2029
 "Gearbane Orangutan",2027
 "Gearseeker Serpent",2028
+"Geist of Saint Thalia",2029
 "Gene Pollinator",2028
 "Genemorph Imago",2028
 "General Traag, Heart of Stone",2029
@@ -1652,6 +1679,8 @@
 "Gev, Scaled Scorch",2027
 "Geyser Drake",2027
 "Geyser Leaper",2028
+"Ghalta the Immovable",2029
+"Ghalta the Unstoppable",2029
 "Ghalta, Primal Hunger",2030
 "Ghalta, Stampede Tyrant",2027
 "Ghired, Mirror of the Wilds",2027
@@ -1668,6 +1697,8 @@
 "Giant's Boulder",2029
 "Giant-Sized Flying Ant",2029
 "Giantfall",2029
+"Gideon the Oathless",2029
+"Gideon's Memorial",2029
 "Gigantic Big Bear",2029
 "Gigantoad",2028
 "Gigantosaurus",2030
@@ -1796,6 +1827,7 @@
 "Greenbelt Guardian",2028
 "Greenbelt Radical",2027
 "Greenhouse // Rickety Gazebo",2027
+"Greenhouse Propagator",2029
 "Gremlin Tamer",2027
 "Greta, Sweettooth Scourge",2027
 "Grievous Wound",2027
@@ -1851,6 +1883,7 @@
 "Haliya, Guided by Light",2028
 "Hallowed Fountain",2029
 "Hallowed Fountain // Hallowed Fountain",2029
+"Hallway Heckler // Vicious Verse",2029
 "Hama, the Bloodbender",2028
 "Hamato Guardian Stance",2029
 "Hamlet Glutton",2027
@@ -1879,6 +1912,7 @@
 "Haste Magic",2028
 "Haunt the Network",2028
 "Haunted Hellride",2028
+"Haunted Ridge",2029
 "Haunted Screen",2027
 "Hauntwoods Shrieker",2027
 "Hawkeye's Bow",2029
@@ -1898,6 +1932,7 @@
 "Hearth Elemental // Stoke Genius",2027
 "Hearthborn Battler",2027
 "Heartless Act",2028
+"Heartwood Crafter // Soul Tether",2029
 "Heated Argument",2029
 "Hecteyes",2028
 "Hedge Maze",2027
@@ -1934,6 +1969,7 @@
 "Heroic Feast",2029
 "Heroic Reinforcements",2030
 "Hex Magic",2029
+"Hexhaven Invigorator",2029
 "Hexing Squelcher",2029
 "Hidden Cataract",2027
 "Hidden Courtyard",2027
@@ -2010,6 +2046,7 @@
 "Human Torch, Johnny Storm",2029
 "Humbling Elder",2028
 "Hundred-Battle Veteran",2028
+"Hungering Puppetbeast",2029
 "Hungry Ghoul",2030
 "Hungry Graffalon",2029
 "Hunted Bonebrute",2027
@@ -2027,6 +2064,7 @@
 "Hylderblade",2028
 "Hymn of the Faller",2028
 "I Am Iron Man",2029
+"I've been pulling the strings the whole time!""",2029
 "Ice Cream Kitty",2029
 "Ice Flan",2028
 "Ice Magic",2028
@@ -2036,6 +2074,7 @@
 "Icetill Explorer",2028
 "Icewind Elemental",2030
 "Icewrought Sentry",2027
+"Icy Reception",2029
 "Idol of the Deep King // Sovereign's Macuahuitl",2027
 "Ignis Scientia",2028
 "Iguana Parrot",2028
@@ -2068,11 +2107,13 @@
 "Infernal Phantom",2027
 "Infernal Vessel",2030
 "Infestation Sage",2030
+"Infinite Coursework",2029
 "Infinite Guideline Station",2028
 "Infirmary Healer // Stream of Life",2029
 "Informed Inkwright",2029
 "Ingenious Leonin",2030
 "Ingenious Prodigy",2027
+"Ingris Stingerquill",2029
 "Inkling Mascot",2029
 "Inkshape Demonstrator",2029
 "Inner Demons Gangsters",2028
@@ -2089,6 +2130,7 @@
 "Insidious Roots",2027
 "Insomnia, Crown City",2028
 "Inspiration from Beyond",2030
+"Inspired Tethermage",2029
 "Inspiring Call",2030
 "Inspiring Overseer",2030
 "Inspiring Paladin",2030
@@ -2151,6 +2193,7 @@
 "Izzet Guildgate",2030
 "J. Jonah Jameson",2028
 "Jace Reawakened",2027
+"Jace's Machinations",2029
 "Jackal, Genius Geneticist",2028
 "Jackdaw Savior",2027
 "Jade Seedstones // Jadeheart Attendant",2027
@@ -2178,6 +2221,8 @@
 "Jessica Jones, Private Eye",2029
 "Jet's Brainwashing",2028
 "Jet, Freedom Fighter",2028
+"Jiang Yanggu, Alone",2029
+"Jiang Yanggu, Never Alone",2029
 "Jibbirik Omnivore",2028
 "Jidoor, Aristocratic Capital // Overture",2028
 "Jill, Shiva's Dominant // Shiva, Warden of Ice",2028
@@ -2218,6 +2263,8 @@
 "Karakyk Guardian",2028
 "Kargan Dragonrider",2030
 "Karlov Watchdog",2027
+"Karn, Argent Defender",2029
+"Karn, Gilded Guardian",2029
 "Kaslem's Stonetree // Kaslem's Strider",2027
 "Kastral, the Windcrested",2027
 "Katara, Bending Prodigy",2028
@@ -2232,6 +2279,7 @@
 "Keen Buccaneer",2028
 "Keen-Eyed Curator",2027
 "Keep Out",2029
+"Keeper of the Quiet Hour",2029
 "Kefka, Court Mage // Kefka, Ruler of Ruin",2028
 "Kellan Joins Up",2027
 "Kellan's Lightblades",2027
@@ -2261,6 +2309,8 @@
 "Kinjalli's Dawnrunner",2027
 "Kinsbaile Aspirant",2029
 "Kinscaer Sentry",2029
+"Kiora of Fire and Ashes",2029
+"Kiora of Salt and Sand",2029
 "Kiora, the Rising Tide",2030
 "Kirol, Attentive First-Year",2029
 "Kirol, History Buff // Pack a Punch",2029
@@ -2288,6 +2338,7 @@
 "Kolodin, Triumph Caster",2028
 "Koma, World-Eater",2030
 "Kona, Rescue Beastie",2027
+"Konstrari Charm",2029
 "Korvold and the Noble Thief",2027
 "Kotis, the Fangkeeper",2028
 "Koya, Death from Above",2029
@@ -2313,6 +2364,7 @@
 "Kulrath Zealot",2029
 "Kutzil's Flanker",2027
 "Kutzil, Malamet Exemplar",2027
+"Kwia Vigorbloom",2029
 "Kykar, Zephyr Awakener",2030
 "Kylox's Voltstrider",2027
 "Kylox, Visionary Inventor",2027
@@ -2457,6 +2509,7 @@
 "Loxodon Battle Priest",2028
 "Loxodon Eavesdropper",2027
 "Loxodon Surveyor",2028
+"Loyal Tutor",2029
 "Luke Cage, Power Man",2029
 "Lumaret's Favor",2029
 "Lumbering Laundry",2027
@@ -2475,12 +2528,16 @@
 "Luxknight Breacher",2028
 "Luxurious Locomotive",2027
 "Lyra Dawnbringer",2030
+"Lyra, Archangel of Dawn",2029
+"Lyra, Tolarian Archangel",2029
 "Lys Alana Dignitary",2029
 "Lys Alana Informant",2029
 "M.O.D.O.K.",2029
 "Maalfeld Twins",2030
 "Mabel's Mettle",2027
+"Mabel, Bitter Recluse",2029
 "Mabel, Heir to Cragflame",2027
+"Mabel, Valley Hero",2029
 "Macabre Reconstruction",2027
 "Macabre Waltz",2030
 "Machinesmith Automaton",2029
@@ -2559,6 +2616,7 @@
 "Massacre Wurm",2030
 "Master Pakku",2028
 "Master Piandao",2028
+"Master of Barbs",2029
 "Master's Councillors",2029
 "Master's Guide-Mural // Master's Manufactory",2027
 "Masterful Flourish",2029
@@ -2592,6 +2650,7 @@
 "Memorial Vault",2028
 "Memories Returning",2028
 "Memory Guardian",2028
+"Memory Trap",2029
 "Memory Vessel",2027
 "Mendicant Core, Guidelight",2028
 "Mental Modulation",2028
@@ -2822,6 +2881,7 @@
 "Nita, Forum Conciliator",2029
 "Niv-Mizzet, Guildpact",2027
 "Niv-Mizzet, Visionary",2030
+"No Admittance",2029
 "No More Lies",2027
 "No Witnesses",2027
 "Nobody",2029
@@ -2846,6 +2906,7 @@
 "Nowhere to Run",2027
 "Noxious Newt",2029
 "Null Group Biological Assets",2029
+"Null Summoner",2029
 "Nullpriest of Oblivion",2030
 "Nurturing Bristleback",2027
 "Nurturing Pixie",2027
@@ -2934,6 +2995,7 @@
 "Outpace Oblivion",2028
 "Outrageous Robbery",2027
 "Over the Edge",2027
+"Overgrown Farmland",2029
 "Overgrown Tomb",2029
 "Overgrown Tomb // Overgrown Tomb",2029
 "Overgrown Zealot",2027
@@ -2946,6 +3008,7 @@
 "Overprotect",2027
 "Overrun",2030
 "Overwhelming Surge",2028
+"Overwrite the Multiverse",2029
 "Overzealous Muscle",2027
 "Ovika, Enigma Goliath",2030
 "Oviya, Automech Artisan",2028
@@ -3066,6 +3129,7 @@
 "Pollen-Shield Hare // Hare Raising",2027
 "Polliwallop",2027
 "Polygraph Orb",2027
+"Pompous Battlemage // Improvised Act",2029
 "Pompous Gadabout",2027
 "Pond Prophet",2027
 "Popular Egotist",2027
@@ -3107,20 +3171,25 @@
 "Prison Break",2028
 "Private Eye",2027
 "Procrastinate",2029
+"Proctor of Potential",2029
 "Proctor's Gaze",2029
 "Professional Wrestler",2028
 "Professor Dellian Fel",2029
 "Professor Zei, Anthropologist",2028
 "Proft's Eidetic Memory",2027
+"Proft, Consulting Detective",2029
+"Proft, Sinister Mastermind",2029
 "Progenitus",2030
 "Project Deathlok Soldier",2029
 "Projektor Inspector",2027
 "Promising Vein",2027
 "Prompto Argentum",2028
+"Prophesied End",2029
 "Prophetic Prism",2027
 "Prosperity Tycoon",2027
 "Protective Parents",2027
 "Protective Response",2029
+"Protege's Awakening",2029
 "Provisions Merchant",2027
 "Prowcatcher Specialist",2028
 "Prowler, Clawed Thief",2028
@@ -3220,6 +3289,7 @@
 "Rampaging Ceratops",2027
 "Rampaging Soulrager",2027
 "Rampaging Spiketail",2027
+"Rampart Hunter",2029
 "Ran and Shaw",2028
 "Rancorous Archaic",2029
 "Random Encounter",2028
@@ -3317,6 +3387,7 @@
 "Reptilian Recruiter",2027
 "Repulsive Mutation",2027
 "Repulsor Blast",2029
+"Repurposed Enforcer",2029
 "Repurposing Bay",2028
 "Reputable Merchant",2028
 "Requiem Monolith",2028
@@ -3344,6 +3415,7 @@
 "Restoration Magic",2028
 "Restoration Seminar",2029
 "Restorative Technique",2029
+"Restore with Empathy",2029
 "Restricted Office // Lecture Hall",2027
 "Resurrected Cultist",2027
 "Retched Wretch",2029
@@ -3352,12 +3424,14 @@
 "Return Triumphant",2027
 "Return from the Wilds",2027
 "Return the Favor",2027
+"Return to the Light Realms",2029
 "Return to the Sewers",2029
 "Revenge of the Rats",2030
 "Reverberating Summons",2028
 "Reverent Howl",2029
 "Revival of the Ancestors",2028
 "Rewrite History",2029
+"Rewrite Regrets",2029
 "Rhino's Rampage",2028
 "Rhino, Barreling Brute",2028
 "Rhovanion Rampager",2029
@@ -3415,6 +3489,7 @@
 "Rocket-Powered Goblin Glider",2028
 "Rocketeer Boostbuggy",2028
 "Rockface Village",2027
+"Rockfall Vale",2029
 "Rocksteady, Crash Courser",2029
 "Rocky Rebuke",2028
 "Rocky Roads",2028
@@ -3466,6 +3541,8 @@
 "Rune-Scarred Demon",2030
 "Rune-Sealed Wall",2030
 "Runescale Stormbrood // Chilling Screech",2028
+"Ruric Thar, Biomagus",2029
+"Ruric Thar, Magecrusher",2029
 "Rush of Dread",2027
 "Rust Harvester",2028
 "Rust-Shield Rampager",2027
@@ -3618,6 +3695,7 @@
 "Selfless Police Captain",2028
 "Selfless Safewright",2029
 "Selvala, Eager Trailblazer",2027
+"Semester Foreseer // Peer Review",2029
 "Send in the Pest",2029
 "Sentinel of Lost Lore",2027
 "Sentinel of the Nameless City",2027
@@ -3667,6 +3745,7 @@
 "Shinestriker",2029
 "Shinra Reinforcements",2028
 "Shipwreck Dowser",2030
+"Shipwreck Marsh",2029
 "Shipwreck Sentry",2027
 "Shivan Dragon",2030
 "Shock",2028
@@ -3784,11 +3863,14 @@
 "Sokka, Bold Boomeranger",2028
 "Sokka, Lateral Strategist",2028
 "Sokka, Tenacious Tactician",2028
+"Solarium Sentry",2029
 "Sold Out",2028
 "Solemn Simulacrum",2030
 "Solitary Cell",2029
 "Solitary Sanctuary",2027
 "Solstice Revelations",2028
+"Solve for Disappointment",2029
+"Something Worth Saving",2029
 "Sonar Strike",2027
 "Song of Stupefaction",2027
 "Song of Totentanz",2027
@@ -3968,6 +4050,7 @@
 "Stingblade Assassin",2027
 "Stingcaster Mage",2029
 "Stingerback Terror",2027
+"Stingerquill Charm",2029
 "Stingerquill Voxmancer // Vicious Verse",2029
 "Stinging Cave Crawler",2027
 "Stir Up Trouble",2029
@@ -4146,6 +4229,7 @@
 "Taken by Nightmares",2027
 "Talion's Messenger",2027
 "Talion, the Kindly Lord",2027
+"Tam's Resistance",2029
 "Tam, Mindful First-Year",2029
 "Tam, Observant Sequencer // Deep Sight",2029
 "Tangle Tumbler",2027
@@ -4155,6 +4239,7 @@
 "Tannuk, Steadfast Second",2028
 "Tanufel Rimespeaker",2029
 "Tapestry Warden",2028
+"Tarmogoyf",2029
 "Tarnation Vista",2027
 "Tarrian's Journal // The Tomb of Aclazotz",2027
 "Tarrian's Soulcleaver",2027
@@ -4218,10 +4303,14 @@
 "Terror of the Peaks",2027
 "Tersa Lightshatter",2028
 "Tester of the Tangential",2029
+"Tethermage's Advantage",2029
+"Tetsuko Umezawa, Fugitive",2029
+"Tetsuko Umezawa, Pursuer",2029
 "Teval, Arbiter of Virtue",2028
 "Textbook Tabulator",2029
 "Teysa, Opulent Oligarch",2027
 "Tezzeret, Cruel Captain",2028
+"Thalia, the Survivor",2029
 "Thanos, the Mad Titan",2029
 "Thaumaton Torpedo",2028
 "Thawbringer",2028
@@ -4328,6 +4417,9 @@
 "The Wind Crystal",2028
 "The Witch's Vanity",2027
 "The Wondrous Wasp",2029
+"Theorist's Proxy",2029
+"Theorist's Sanctum",2029
+"Theorix Charm",2029
 "They Went This Way",2027
 "Thief's Knife",2028
 "Thieving Otter",2027
@@ -4534,6 +4626,7 @@
 "Uchbenbak, the Great Mistake",2027
 "Ugin, Eye of the Storms",2028
 "Ugin, Eye of the Storms // Ugin, Eye of the Storms",2028
+"Uldaros Theorix",2029
 "Ulna Alley Shopkeep",2029
 "Ultima",2028
 "Ultima Weapon",2028
@@ -4679,6 +4772,7 @@
 "Vicious Clown",2027
 "Vicious Rivalry",2029
 "Victor, Valgavoth's Seneschal",2027
+"Vigorbloom Charm",2029
 "Vigorbloom Vanguard // Seed Suture",2029
 "Vile Entomber",2030
 "Vile Mutilator",2027
@@ -4686,9 +4780,11 @@
 "Villainous Wrath",2028
 "Vincent Valentine // Galian Beast",2028
 "Vincent's Limit Break",2028
+"Vindictive Triumph",2029
 "Vindictive Warden",2028
 "Vinebred Brawler",2029
 "Vinereap Mentor",2027
+"Violent Echoes",2029
 "Violent Urge",2027
 "Virtue of Courage // Embereth Blaze",2027
 "Virtue of Knowledge // Vantress Visions",2027
@@ -4729,6 +4825,8 @@
 "Voyager Glidecar",2028
 "Voyager Quickwelder",2028
 "Vraska Joins Up",2027
+"Vraska, Soul of Stone",2029
+"Vraska, the Cutting Glare",2029
 "Vraska, the Silencer",2027
 "Vren, the Relentless",2027
 "Vulture, Scheming Scavenger",2028
@@ -4766,6 +4864,7 @@
 "Warren Elder",2027
 "Warren Torchmaster",2029
 "Warren Warleader",2027
+"Warrior's Blades",2029
 "Warrior's Sword",2028
 "Wartime Protestors",2028
 "Wary Farmer",2029
@@ -4787,6 +4886,12 @@
 "Watery Grave",2028
 "Wax-Wane Witness",2027
 "Waxen Shapethief",2028
+"Way of the Cryomancer",2029
+"Way of the Deathbringer",2029
+"Way of the Healer",2029
+"Way of the Necromancer",2029
+"Way of the Pyromancer",2029
+"Way of the Wildspeaker",2029
 "Waylaying Pirates",2027
 "Wayspeaker Bodyguard",2028
 "We Say Thee Nay!",2029
@@ -4807,6 +4912,7 @@
 "Well-Worn Spatula",2029
 "Werefox Bodyguard",2027
 "West Wind Avatar",2029
+"Whiplash Wordsmith // Vicious Verse",2029
 "Whiplash, Vengeful Engineer",2029
 "Whirlwing Stormbrood // Dynamic Soar",2028
 "Whiskerquill Scribe",2027
@@ -4855,6 +4961,8 @@
 "Winter's Intervention",2027
 "Winter, Cursed Rider",2028
 "Winter, Misanthropic Guide",2027
+"Winter, Team Player",2029
+"Winter, Tormented Loner",2029
 "Winternight Stories",2028
 "Wisdom of Ages",2029
 "Wisecrack",2028
@@ -4889,6 +4997,7 @@
 "Wrangler of the Damned",2027
 "Wreck Remover",2028
 "Wreckage Wickerfolk",2028
+"Wrecking Gecko",2029
 "Wrench",2027
 "Wretched Doll",2028
 "Wurmwall Sweeper",2028
@@ -4896,6 +5005,8 @@
 "Xande, Dark Mage",2028
 "Xu-Ifit, Osteoharmonist",2028
 "Y'shtola Rhul",2028
+"Yargle, Glutton of Urborg",2029
+"Yargle, Goliath of Otaria",2029
 "Yarus, Roar of the Old Gods",2027
 "Yathan Roadwatcher",2028
 "Yathan Tombguard",2028
@@ -4907,6 +5018,8 @@
 "Youthful Valkyrie",2030
 "Yue, the Moon Spirit",2028
 "Yuna, Hope of Spira",2028
+"Yuriko, Blade of the Mighty",2029
+"Yuriko, Hope from the Shadows",2029
 "Yuyan Archers",2028
 "Zack Fair",2028
 "Zaffai and the Tempests",2029
